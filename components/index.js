@@ -8,7 +8,8 @@ import Price from "./Price";
 import Start from "./Start";
 import Footer from "./Footer";
 import Layout  from "./Layout";
+import Container from "./Container";
 
 export {
-    Navbar , Hero , Live , MasterClass , Messages , Estimate , Price , Start , Footer ,Layout
+    Navbar , Hero , Live , MasterClass , Messages , Estimate , Price , Start , Footer ,Layout , Container
 }

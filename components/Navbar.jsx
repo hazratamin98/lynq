@@ -1,10 +1,14 @@
 import React from 'react'
+import Container from './Container'
 
 const Navbar = () => {
   return (
-    <div >
-    <h1 className='text-2xl '>Navbar</h1>
-    </div>
+    <Container>
+         
+    <h1 className='text-xl font-extrabold' >Navbar</h1>
+  
+    </Container>
+  
   )
 }
 
