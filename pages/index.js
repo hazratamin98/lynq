@@ -9,8 +9,9 @@ import {Navbar , Hero , Live , MasterClass , Messages , Estimate , Price , Start
 export default function Home() {
   return (
     <>
-      {/* <Container> */}
-         <Navbar/>
+    <div className='bg-black text-white'>
+       {/* <Container> */}
+        <Navbar/>
     <Hero/>
     <Live/>
     <MasterClass/>
@@ -20,13 +21,10 @@ export default function Home() {
     <Start/>
     <Footer/> 
       {/* </Container> */}
-   
-    
-  
+    </div>
      
-    
+       
   
-     
     </>
   )
 }

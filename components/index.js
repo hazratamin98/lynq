@@ -9,7 +9,8 @@ import Start from "./Start";
 import Footer from "./Footer";
 import Layout  from "./Layout";
 import Container from "./Container";
+import Button from "./Button";
 
 export {
-    Navbar , Hero , Live , MasterClass , Messages , Estimate , Price , Start , Footer ,Layout , Container
+    Navbar , Hero , Live , MasterClass , Messages , Estimate , Price , Start , Footer ,Layout , Container ,Button
 }
