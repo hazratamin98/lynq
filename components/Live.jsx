@@ -70,7 +70,7 @@ const Live = () => {
      
   
     </div>
-    <div className='flex justify-center mt-10'>
+    <div className='flex justify-center py-10'>
        <Button label="Get Started For Free" />
     </div>
    

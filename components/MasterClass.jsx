@@ -4,9 +4,9 @@ import Forms from "../assests/Form"
 
 const MasterClass = () => {
   return (
-    <div className='bg-[#1A1B1C] my-10'>
+    <div className='bg-[#1A1B1C] '>
         <div className='text-center '>
-        <h1 className='font-bold text-[48px] leading-[66px]  text-[#FFFFFF]' >
+        <h1 className='font-bold text-[48px] leading-[66px] py-4 text-[#FFFFFF]' >
     Masterclasses
       </h1>
       <p className='font-medium text-lg text-[#999CA0] leading-[27px] '>Host livestreams with an unlimited number of attendees. <br/>
