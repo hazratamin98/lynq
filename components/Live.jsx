@@ -1,33 +1,80 @@
 import React from 'react'
-import LiveCall from "../assests/LiveCall"
+import Forms from "../assests/Form"
+import Button from './Button'
 
 const Live = () => {
   return (
-    <>
+    <div>
     
-     <div className='text-center'>
+     <div className='text-center '>
         <h1 className='font-bold text-[48px] leading-[66px] mt-40 text-[#FFFFFF]' >
     1:1 live video calls
       </h1>
       <p className='font-medium text-lg text-[#999CA0] leading-[27px] '>Provide your followers with personalized advice through short live video calls </p>
     </div>
-    <div className='flex  justify-between'>
-    <LiveCall/>
-     {/* <h1 class='before:inline-block before:w-3 before:h-3 before:mr-4
-           before:bg-red-500 before:rounded-full '>Hello</h1>
-        <div class="h-[40px]  bg-red-400 w-[5px] ml-[3.5px] "></div> */}
-        {/* <div className='w-[48px] h-[48px] bg-black rounded-full  border-[#5A27E7] border-solid border-2 text-center  '>1</div> */}
-    <div class="flex items-start gap-5">
-      <span  className='w-[48px] h-[48px] bg-black rounded-full  font-bold text-2xl text-[#5A27E7] border-[#5A27E7] border-solid border-1  text-center  '>1</span>
+    <div className=' flex  md:flex-row flex-col-reverse justify-center items-center md:px-0 px-4 md:justify-center gap-9 mt-8'>
+    <Forms/>
+    <div className='flex flex-col gap-6'>
+       <div class="flex items-start gap-5 ">
+      <div>
+         <span  className='w-[48px] h-[48px] flex justify-center items-center rounded-full  font-bold text-2xl text-[#5A27E7] border-[#5A27E7] border-solid border-[1px]  text-center  '>1</span>
+      <div className='border-[#393B3F] border-dashed border-[2px]  rotate-90 mt-6 '/>
+      </div>
+     
       <div>
         <h1 className='font-bold text-[22px] leading-[30px]'>Pick up your schedule</h1>
         <p className='font-normal text-base text-[#999CA0]'>Manage your availability and synchronize your <br/> calendars. Booking happens only when you are free</p>
       </div>
   
-  </div> 
+     </div>
+      <div class="flex items-start gap-5 ">
+      <div>
+         <span  className='w-[48px] h-[48px] flex justify-center items-center rounded-full  font-bold text-2xl text-[#5A27E7] border-[#5A27E7] border-solid border-[1px]  text-center  '>2</span>
+      <div className='border-[#393B3F] border-dashed border-[2px]  rotate-90 mt-6 '/>
+      </div>
+     
+      <div>
+        <h1 className='font-bold text-[22px] leading-[30px]'>Set up length and rates</h1>
+        <p className='font-normal text-base text-[#999CA0]'>Lynq collects payment for you</p>
+      </div>
+  
+     </div>
+      <div class="flex items-start gap-5 ">
+      <div>
+         <span  className='w-[48px] h-[48px] flex justify-center items-center rounded-full  font-bold text-2xl text-[#5A27E7] border-[#5A27E7] border-solid border-[1px]  text-center  '>3</span>
+      <div className='border-[#393B3F] border-dashed border-[2px]  rotate-90 mt-6 '/>
+      </div>
+     
+      <div>
+        <h1 className='font-bold text-[22px] leading-[30px]'>Make video call</h1>
+        <p className='font-normal text-base text-[#999CA0]'>No install needed, everything <br/> happens in your browser</p>
+      </div>
+  
+     </div>
+      <div class="flex items-start gap-5 ">
+      <div>
+         <span  className='w-[48px] h-[48px] flex justify-center items-center rounded-full  font-bold text-2xl text-[#5A27E7] border-[#5A27E7] border-solid border-[1px]  text-center  '>4</span>
+      {/* <div className='border-[#393B3F] border-dashed border-[2px]  rotate-90 mt-6 '/> */}
+      </div>
+     
+      <div>
+        <h1 className='font-bold text-[22px] leading-[30px]'>Analyze and improve</h1>
+        <p className='font-normal text-base text-[#999CA0]'>Get profound insights into your best performing options <br/> and the most active clients</p>
+      </div>
+  
+     </div>
+    </div>
+    
+     
+
+     
   
     </div>
-    </>
+    <div className='flex justify-center mt-10'>
+       <Button label="Get Started For Free" />
+    </div>
+   
+    </div>
    
   )
 }
