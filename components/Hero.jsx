@@ -1,6 +1,7 @@
 import React from 'react'
 import {Button} from "../components"
-import LiveCall from "../assests/LiveCall"
+import Mouckupp from "../assests/Images/Mockupp.svg"
+import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
     <Button label="Get Start for Free"/>
     </div>
  
-    {/* <div className='max-w-[1184px] max-h-[819px min-w[489px] min-h-[281px] '> <LiveCall/></div> */}
+    <div   className='  '  > <Image src={Mouckupp} alt="Mouckupp"/></div>
      
    
    

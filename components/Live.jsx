@@ -15,7 +15,7 @@ const Live = () => {
       <p className='font-medium text-lg text-[#999CA0] leading-[27px] '>Provide your followers with personalized advice through short live video calls </p>
     </div>
     <div className=' flex  md:flex-row flex-col-reverse justify-center items-center md:px-0 px-4 md:justify-center gap-9 mt-8'>
-  <div className='w-[600px] h-[400px]'>
+  <div className='max-w-[600px] max-h-[400px]'>
      <Image src={Mockupscg} alt="Mockupscg" />
   </div>
   
