@@ -1,6 +1,8 @@
 import React from 'react'
 import Forms from "../assests/Form"
 import Button from './Button'
+import Mockupscg from "../assests/Images/Mockupscg.svg"
+import Image from 'next/image'
 
 const Live = () => {
   return (
@@ -13,7 +15,10 @@ const Live = () => {
       <p className='font-medium text-lg text-[#999CA0] leading-[27px] '>Provide your followers with personalized advice through short live video calls </p>
     </div>
     <div className=' flex  md:flex-row flex-col-reverse justify-center items-center md:px-0 px-4 md:justify-center gap-9 mt-8'>
-    <Forms/>
+  <div className='w-[600px] h-[400px]'>
+     <Image src={Mockupscg} alt="Mockupscg" />
+  </div>
+  
     <div className='flex flex-col gap-6'>
        <div class="flex items-start gap-5 ">
       <div>
@@ -70,7 +75,7 @@ const Live = () => {
      
   
     </div>
-    <div className='flex justify-center py-10'>
+    <div className='flex justify-center mt-20 py-10 '>
        <Button label="Get Started For Free" />
     </div>
    

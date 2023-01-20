@@ -13,7 +13,7 @@ const Hero = () => {
     <Button label="Get Start for Free"/>
     </div>
  
-    <div className='min-w-[489px]'> <LiveCall/></div>
+    {/* <div className='max-w-[1184px] max-h-[819px min-w[489px] min-h-[281px] '> <LiveCall/></div> */}
      
    
    
