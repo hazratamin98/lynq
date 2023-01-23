@@ -9,7 +9,7 @@ const Live = () => {
     <div>
     
      <div className='text-center '>
-        <h1 className='font-bold text-[48px] leading-[66px] mt-40 text-[#FFFFFF]' >
+        <h1 className='font-bold lg:text-[48px] md:text-[28px] sm:text-[22px] md:leading-[66px] leading-[36px] mt-40 text-[#FFFFFF]' >
     1:1 live video calls
       </h1>
       <p className='font-medium text-lg text-[#999CA0] leading-[27px] '>Provide your followers with personalized advice through short live video calls </p>
@@ -22,12 +22,12 @@ const Live = () => {
     <div className='flex flex-col gap-6'>
        <div class="flex items-start gap-5 ">
       <div>
-         <span  className='w-[48px] h-[48px] flex justify-center items-center rounded-full  font-bold text-2xl text-[#5A27E7] border-[#5A27E7] border-solid border-[1px]  text-center  '>1</span>
+         <span  className='w-[48px] h-[48px] flex justify-center items-center rounded-full  font-bold text-2xl  text-[#5A27E7] border-[#5A27E7] border-solid border-[1px]  text-center  '>1</span>
       <div className='border-[#393B3F] border-dashed border-[2px]  rotate-90 mt-6 '/>
       </div>
      
       <div>
-        <h1 className='font-bold text-[22px] leading-[30px]'>Pick up your schedule</h1>
+        <h1 className='font-bold md:text-[22px] text:[18px] md:leading-[30px] leading-[25px]'>Pick up your schedule</h1>
         <p className='font-normal text-base text-[#999CA0]'>Manage your availability and synchronize your <br/> calendars. Booking happens only when you are free</p>
       </div>
   
@@ -39,7 +39,7 @@ const Live = () => {
       </div>
      
       <div>
-        <h1 className='font-bold text-[22px] leading-[30px]'>Set up length and rates</h1>
+        <h1 className='font-bold  md:text-[22px] text-[18px] md:leading-[30px] leading-[25px] '>Set up length and rates</h1>
         <p className='font-normal text-base text-[#999CA0]'>Lynq collects payment for you</p>
       </div>
   
@@ -51,7 +51,7 @@ const Live = () => {
       </div>
      
       <div>
-        <h1 className='font-bold text-[22px] leading-[30px]'>Make video call</h1>
+        <h1 className='font-bold md:text-[22px] text-[18px]  leading=[25px] md:leading-[30px]'>Make video call</h1>
         <p className='font-normal text-base text-[#999CA0]'>No install needed, everything <br/> happens in your browser</p>
       </div>
   
@@ -63,7 +63,7 @@ const Live = () => {
       </div>
      
       <div>
-        <h1 className='font-bold text-[22px] leading-[30px]'>Analyze and improve</h1>
+        <h1 className='font-bold md:text-[22px] text-[18px]  leading=[25px] md:leading-[30px]'>Analyze and improve</h1>
         <p className='font-normal text-base text-[#999CA0]'>Get profound insights into your best performing options <br/> and the most active clients</p>
       </div>
   

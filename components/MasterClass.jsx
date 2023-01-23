@@ -8,10 +8,10 @@ const MasterClass = () => {
   return (
     <div className='bg-[#1A1B1C] '>
         <div className='text-center '>
-        <h1 className='font-bold text-[48px] leading-[66px] py-4 text-[#FFFFFF]' >
+        <h1 className='font-bold md:text-[48px] text-[28px] leading-[36px]  md:leading-[66px] py-4 text-[#FFFFFF]' >
     Masterclasses
       </h1>
-      <p className='font-medium text-lg text-[#999CA0] leading-[27px] '>Host livestreams with an unlimited number of attendees. <br/>
+      <p className='md:font-medium font-normal  text-[16px] md:text-lg text-[#999CA0] leading-[22px] md:leading-[27px] '>Host livestreams with an unlimited number of attendees. <br/>
 Answer their questions in live with our proprietary Q&A filtering module.  </p>
     </div>
     <div className=' flex  md:flex-row-reverse flex-col-reverse justify-center items-center md:px-0 px-4 md:justify-center gap-9 mt-8'>
@@ -26,7 +26,7 @@ Answer their questions in live with our proprietary Q&A filtering module.  </p>
       </div>
      
       <div>
-        <h1 className='font-bold text-[22px] leading-[30px]'>Create your event</h1>
+        <h1 className='font-bold text-[18px] md:text-[22px] leading-[25px] md:leading-[30px]'>Create your event</h1>
         <p className='font-normal text-base text-[#999CA0]'>Choose content, date, length and <br/> price. Let your followers know</p>
       </div>
   
@@ -38,7 +38,7 @@ Answer their questions in live with our proprietary Q&A filtering module.  </p>
       </div>
      
       <div>
-        <h1 className='font-bold text-[22px] leading-[30px]'>Set up length and rates</h1>
+        <h1 className='font-bold text-[18px] md:text-[22px] leading-[25px] md:leading-[30px]'>Set up length and rates</h1>
         <p className='font-normal text-base text-[#999CA0]'>Lynq collects payment for you</p>
       </div>
   
@@ -50,7 +50,7 @@ Answer their questions in live with our proprietary Q&A filtering module.  </p>
       </div>
      
       <div>
-        <h1 className='font-bold text-[22px] leading-[30px]'>Make video call</h1>
+        <h1 className='font-bold text-[18px] md:text-[22px] leading-[25px] md:leading-[30px]'>Make video call</h1>
         <p className='font-normal text-base text-[#999CA0]'>No install needed, everything <br/> happens in your browser</p>
       </div>
   
@@ -62,7 +62,7 @@ Answer their questions in live with our proprietary Q&A filtering module.  </p>
       </div>
      
       <div>
-        <h1 className='font-bold text-[22px] leading-[30px]'>Analyze and improve</h1>
+        <h1 className='font-bold text-[18px] md:text-[22px] leading-[25px] md:leading-[30px]'>Analyze and improve</h1>
         <p className='font-normal text-base text-[#999CA0]'>Get profound insights into your best performing options <br/> and the most active clients</p>
       </div>
   

@@ -8,7 +8,7 @@ const Messages = () => {
   return (
     <div className=''>
         <div className='text-center '>
-        <h1 className='font-bold text-[48px] leading-[66px]  text-[#FFFFFF]' >
+        <h1 className='font-bold md:text-[48px] text-[28px] md:leading-[66px] leading-[36px]  text-[#FFFFFF]' >
     Messages
       </h1>
       <p className='font-medium text-lg text-[#999CA0] leading-[27px] '>Send a personal video answer to your followers’ question </p>
@@ -25,7 +25,7 @@ const Messages = () => {
       </div>
      
       <div>
-        <h1 className='font-bold text-[22px] leading-[30px]'>Pick up your schedule</h1>
+        <h1 className='font-bold text-[18px] md:text-[22px] leading-[25px] md:leading-[30px]'>Pick up your schedule</h1>
         <p className='font-normal text-base text-[#999CA0]'>Manage your availability and synchronize your <br/> calendars. Booking happens only when you are free</p>
       </div>
   
@@ -37,7 +37,7 @@ const Messages = () => {
       </div>
      
       <div>
-        <h1 className='font-bold text-[22px] leading-[30px]'>Set up length and rates</h1>
+        <h1 className='font-bold text-[18px] md:text-[22px] leading-[25px] md:leading-[30px]'>Set up length and rates</h1>
         <p className='font-normal text-base text-[#999CA0]'>Lynq collects payment for you</p>
       </div>
   
@@ -49,7 +49,7 @@ const Messages = () => {
       </div>
      
       <div>
-        <h1 className='font-bold text-[22px] leading-[30px]'>Make video call</h1>
+        <h1 className='font-bold text-[18px] md:text-[22px] leading-[25px] md:leading-[30px]'>Make video call</h1>
         <p className='font-normal text-base text-[#999CA0]'>No install needed, everything <br/> happens in your browser</p>
       </div>
   
@@ -61,7 +61,7 @@ const Messages = () => {
       </div>
      
       <div>
-        <h1 className='font-bold text-[22px] leading-[30px]'>Analyze and improve</h1>
+        <h1 className='font-bold text-[18px] md:text-[22px] leading-[25px] md:leading-[30px]'>Analyze and improve</h1>
         <p className='font-normal text-base text-[#999CA0]'>Get profound insights into your best performing options <br/> and the most active clients</p>
       </div>
   
